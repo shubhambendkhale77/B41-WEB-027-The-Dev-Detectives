@@ -1,0 +1,106 @@
+.top-most{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    
+}
+
+.coursera>a>img{
+    width: 250px;
+    height: fit-content;
+}
+.top-mid{
+    display: flex;
+    padding-right: 40px;
+    width: 500px;
+    justify-content: space-between;    
+
+}
+
+.top-mid>div>a{
+    text-decoration: none;
+    box-sizing :border-box;
+    color :rgb(91, 103, 128);
+    font-family: "Source Sans Pro", Arial, sans-serif;
+    font-size :14px;
+    font-size-adjust: none;
+    font-stretch :100%;
+    font-weight:400;
+    text-align :left;
+    text-decoration-color: rgb(91, 103, 128);
+    text-size-adjust :100%;
+
+
+}
+.Contact-sales{
+    padding-left: 300px;
+}
+.Contact-sales>button{
+    background-color: rgb(0, 86, 210);
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: -0.1px;
+    line-height: 24px;
+    width: 130px;
+    height: 40px;
+    padding: 0;
+    border-radius: 5px;
+    border-color: rgb(0, 86, 210);
+}
+
+.empower-and-image{
+    display: flex;
+    background-color: rgb(242, 245, 250);
+    justify-content: center;
+    width: fit-content;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+.list-contant{
+    width: 50%;
+}
+h1{
+    font-family: Arial, sans-serif;
+    color: rgb(55, 58, 60);
+    display: block;
+    font-weight: 400; 
+    font-size: 64px;
+    line-height: 24px; 
+    /* margin-left: 150px;  */
+}
+
+.girl-image{
+    width: 50%;
+
+}
+/* .girl-image>img{
+    width: fit-content;
+    height: fit-content;
+
+} */
+.brand-logos {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-right: 100px;
+    padding-top: 100px;
+    margin-left: 40px;
+}
+
+.brand-logos>div{
+    height: 80px;
+    width: 190px;
+    border: solid blue;
+}
+
+.brand-logos>div>img {
+    height: auto;
+    width: fit-content;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
