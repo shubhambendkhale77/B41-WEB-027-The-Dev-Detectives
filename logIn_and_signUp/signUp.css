@@ -1,5 +1,6 @@
 body {
     padding: 0;
+    margin: 0;
 
   }
   h1,
@@ -9,8 +10,8 @@ body {
   h5,
   h6 {
     font-family: inherit;
-    font-weight: 350;
-    line-height: 1.1;
+    font-weight: 300;
+    /* line-height: ; */
     color: inherit;
   }
   .welcome-h1 {
@@ -20,6 +21,7 @@ body {
     font-size: 1.5rem;
     line-height: 2rem;
     text-align: center;
+
   }
   .btn-section {
     display: flex;
@@ -219,8 +221,8 @@ justify-content: center;
   }
 
   #signUp-container{
-    margin-top:1px;
-    padding-top:1px;
+    margin-top:0px;
+    padding-top:0px;
     display: flex;
    justify-content: center;
   }
