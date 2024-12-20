@@ -1,0 +1,191 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/b9/c608c79b5c498a8fa55b117fc3282f/5.-Square-logo-for-landing-page---Alpha.png?auto=format%2Ccompress&dpr=1",
+      "course": "Birla Institute of Technology & Science, Pilani",
+      "details": "Bachelor of Science in Data Science & AI",
+      "date": "Accredited by the National Assessment & Accreditation Council (NAAC) with 'A' grade",
+      "branch":"B",
+      "active":true
+    },
+    {
+      "id": 2,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/34/d6e73dc4eb4731ba332a0dc82830a9/Square-logo-for-partner-landing-page-1-1-.png?auto=format%2Ccompress&dpr=1",
+      "course": "Indian Institute of Technology Guwahati",
+      "details": "Bachelor of Science in Computer Science",
+      "date": "Ranked 7th among India’s top engineering institutes, according to NIRF 2023",
+      "branch":"B",
+      "active":true
+    },
+    {
+      "id": 3,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/fb/b28a301e0211e8a40e23e4176c8e4a/UoL-Logo_180x180.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of London",
+      "details": "Bachelor of Science in Computer Science",
+      "date": "#29 in Top Universities in the U.K. (The Times and Sunday Times Good University Guide, 2023)",
+      "branch":"B",
+      "active":false
+    },
+    {
+      "id": 4,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/d8/42cdc0ab2011e8b910bdf80bed9f6c/CenterILblock-ISQUAREOrangeBackgrnd.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of Illinois Urbana-Champaign",
+      "details": "Master of Business Administration (iMBA)",
+      "date": "p#12 in Top Public Universities in the U.S. (U.S. News & World Report, 2023)",
+      "branch":"M",
+      "active":true
+    },
+    {
+      "id": 5,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/67/ea8ae2575a4402ab7d212dd3b66ace/360-x-360-1-.png?auto=format%2Ccompress&dpr=1",
+      "course": "S.P. Jain Institute of Management and Research",
+      "details": "PG Diploma in Management (PGDM) Online",
+      "date": "#1 B-school in India in FT Masters in Management 2024 rankings. Scholarships of INR 150,000 for eligible applicants",
+      "branch":"M",
+      "active":true
+    },
+    {
+      "id": 6,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/93/dafd90b13544b3844d0967bcb2fe77/iitricon.png?auto=format%2Ccompress&dpr=1",
+      "course": "IIT Roorkee",
+      "details": "Executive MBA",
+      "date": "#8 university in India as per the NIRF 2023, IIT Roorkee is an Institute of National Importance",
+      "branch":"M",
+      "active":false
+    },
+    {
+      "id": 7,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-university-assets.s3.amazonaws.com/70/de505d47be7d3a063b51b6f856a6e2/New-Block-M-Stacked-Blue-295C_600x600.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of Michigan",
+      "details": "Master of Applied Data Science",
+      "date": "#1 Public Research University in the U.S. (QS World Rankings, 2022)",
+      "branch":"B",
+      "active":true
+    },
+    {
+      "id": 8,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/c3/d941080263456d928aa9e370ba5141/medium_blue_0.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of Pittsburgh",
+      "details": "Master of Data Science",
+      "date": "Application due December 29, 2024",
+      "branch":"M",
+      "active":false
+    },
+    {
+      "id": 9,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/13/4f6741eec44e2b9e40fc79bdf15b87/360x360.png?auto=format%2Ccompress&dpr=1",
+      "course": "O.P. Jindal Global University",
+      "details": "M.A. in International Relations, Security, and Strategy",
+      "date": "#1 ranked private university in India (QS World University Rankings, 2021)",
+      "branch":"M",
+      "active":true
+    },
+    {
+      "id": 10,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/a6/7035b7e00b401383be4e5856b8bdaa/Boulder-FL-VERT-B---cropped.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of Colorado Boulder",
+      "details": "Master of Engineering in Engineering Management",
+      "date": "#23 Best Engineering School (US News, 2023)",
+      "branch":"M",
+      "active":true
+    },
+
+
+
+
+    {
+      "id": 11,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/13/4f6741eec44e2b9e40fc79bdf15b87/360x360.png?auto=format%2Ccompress&dpr=1",
+      "course": "O.P. Jindal Global University",
+      "details": "M.A. in Public Policy",
+      "date": "#1 ranked private university in India (QS World University Rankings, 2021)",
+      "branch":"M",
+      "active":true
+    },
+    {
+      "id": 12,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/3d/1c8fdf7ef5404aa83ab0c00fa12cf5/LOGO_1.png?auto=format%2Ccompress&dpr=1",
+      "course": "Illinois Tech",
+      "details": "Master of Information Technology",
+      "date": "Application due January 28, 2025",
+      "branch":"M",
+      "active":false
+    },
+    {
+      "id": 13,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/68/9b2c6526cb41afa07c86903b8b0961/Untitled-design-15-.png?auto=format%2Ccompress&dpr=1",
+      "course": "Georgetown University",
+      "details": "Bachelor of Arts in Liberal Studies",
+      "date": "Ranked in the Top 25 Best National Universities in the U.S.(U.S. News & World Report, 2023)",
+      "branch":"B",
+      "active":true
+    },
+    {
+      "id": 14,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/69/e53caf7a9348df9f738d2c1ad2b6d2/Clemson-logo-square-no-borders.png?auto=format%2Ccompress&dpr=1",
+      "course": "Clemson University",
+      "details": "Master of Science in Computer Science",
+      "date": "#23 Best Engineering School (US News, 2023)",
+      "branch":"M",
+      "active":false
+    },
+    {
+      "id": 15,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/5e/0548e3bb0146c9a6e4884caecd8d94/UNI.HUD.334.LOGO-360px-x-360px-reverse.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of Huddersfield",
+      "details": "MSc Management",
+      "date": "Application due January 6, 2025",
+      "branch":"M",
+      "active":true
+    },
+
+
+
+    {
+      "id": 16,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/b1/f66aa00aa811e8b14d27d7114bc00b/ImperialCollegeLondon_BLUE_500x500px.png?auto=format%2Ccompress&dpr=1",
+      "course": "Imperial College London",
+      "details": "Imperial College London",
+      "date": "#2 ranked university in the world (QS World University Rankings 2025)",
+      "branch":"M",
+      "active":true
+    },
+    {
+      "id": 17,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/3a/4462907b1511e8a3472b753a4c35c3/HEC_logo.png?auto=format%2Ccompress&dpr=1",
+      "course": "HEC Paris",
+      "details": "Executive MSc & MSc in Innovation and Entrepreneurship",
+      "date": "#1 Business School in Europe (Financial Times, 2022)",
+      "branch":"M",
+      "active":true
+    },
+    {
+      "id": 18,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/1a/6984a02c5a45e0bc8c40b02a42bbdb/UNT-logo1.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of North Texas",
+      "details": "Bachelor of Applied Arts and Sciences",
+      "date": "#41 Best Online Bachelor's Programs (U.S. News & World Report, 2024)",
+      "branch":"B",
+      "active":true
+    },
+    {
+      "id": 19,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/b1/63ba700cbf11e88d11058d160c766e/square-logo_180x180.png?auto=format%2Ccompress&dpr=1",
+      "course": "University of Leeds",
+      "details": "MSc Data Science (Statistics)",
+      "date": "Ranked in the Top 100 Universities in the World (QS World University Rankings, 2023)",
+      "branch":"M",
+      "active":true
+    },
+    {
+      "id": 20,
+      "img": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/33/d3c2ebd8e24a18bf14a5754b613945/BSU-logo-vert-RGB-1-1-.png?auto=format%2Ccompress&dpr=1",
+      "course": "Ball State University",
+      "details": "Master of Science in Data Science",
+      "date": "Application due January 12, 2025",
+      "branch":"M",
+      "active":true
+    }
+  ]
+}
