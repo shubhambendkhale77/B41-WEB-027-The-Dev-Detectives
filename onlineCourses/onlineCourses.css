@@ -1,3 +1,9 @@
+*{
+  padding: 0;
+  margin: 0;
+  justify-content: center;
+}
+
 #data-container {
   display: grid;
   grid-template-columns: 20rem 20rem 20rem;
@@ -35,7 +41,7 @@
   justify-content: center;
   justify-items: center;
   width: 320px;
-  height: 450px;
+  height: 400px;
   cursor: pointer;
 }
 
@@ -58,7 +64,7 @@ input {
 select {
   padding: 10px;
   border-radius: 1rem;
-  width: 100px;
+  /* width: 100px; */
   justify-content: center;
   align-items: center;
 }
@@ -115,10 +121,12 @@ select {
 
 
 footer {
+
   display: grid;
   grid-template-columns: 10rem 10rem 10rem 10rem;
   column-gap: 12rem;
   /* text-align: center; */
+  justify-content: center;
 }
 
 footer h3 {
