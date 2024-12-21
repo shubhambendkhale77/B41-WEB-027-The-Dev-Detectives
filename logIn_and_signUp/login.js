@@ -25,9 +25,35 @@ signInButton.addEventListener("click", function (event) {
   event.preventDefault(); 
   signInWithEmailAndPassword(auth, email.value, password.value)
     .then(function () {
-              window.location.href = "index.html";
+              window.location.href = "../logIn_and_signUp/logIn.html";
     })
     .catch(function (error) {
       alert("Invalid Candidates");
     });
 });
+
+
+//  login
+
+
+
+// function closeModel(){
+//   document.querySelector('.overlay').classList.remove('showoverlay')
+//   document.querySelector(".loginform").classList.remove('showloginform')
+// }
+
+var btn = document.getElementById("login-btn");
+btn.addEventListener("click",showModel)
+
+var c = document.getElementById("myspan")
+c.addEventListener("click",main)
+
+function showModel() {
+  window.location.href = "../FrontUIDesign/index.html";
+  alert("Welcome To Coursera")
+}
+
+function main() {
+  window.location.href = "../FrontUIDesign/index.html";
+
+}

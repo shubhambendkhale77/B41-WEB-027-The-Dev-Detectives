@@ -4,18 +4,145 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Dev Detective</title>
+    <title>Coursera</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="../coursera/foooter.css">
+    <link rel="stylesheet" href="../logIn_and_signUp/signUp.css">
+    <!-- <link rel="stylesheet" href="../logIn_and_signUp/logIn.css"> -->
+    <!-- <script type="module" src="../logIn_and_signUp/login.js" defer></script> -->
+    <script type="module" src="../logIn_and_signUp/signUp.js" defer></script>
     <!-- <link rel="stylesheet" href="../forUniversities/forUniversities.css"> -->
+
+    <link rel="icon" type="image/x-icon" href="../FrontUIDesign/favicon.ico">
 </head>
 
 <body>
+
+    
+
+    
     <!---------------------------------------------------------------------------------------------------------------------------------------------------------------------->
 
     <!-- Top Black Header -->
 
+    <div class="overlay"></div>
+    <!-- <button class="btn-login" >Login</button> -->
+    <div class="loginform" >
+    <div class="main-login-container">
+      <span id="myspan"><i class="fa-solid fa-xmark"></i></span>
+      <header class="welcome-h1">
+        <h1>Sign up</h1>
+      </header>
+      <br>
+      <div id="signUp-container">
+        <br>
+        <p class="signUp-Para">
+          <span
+            >Learn on your own time from top universities and businesses.</span
+          >
+        </p>
+      </div>
+
+      <div>
+        <section class="btn-section">
+          <a class="a" href="https://shorturl.at/q7ts9" target="_blank">
+            <button>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/300/300221.png"
+                alt="googleImage"
+              />Google
+            </button>
+          </a>
+
+          <a class="a" href="https://shorturl.at/al4jw" target="_blank">
+            <button>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/174/174848.png"
+                alt="facebookImage"
+              />Facebook
+            </button>
+          </a>
+          <a class="a" href="https://shorturl.at/5xNHy" target="_blank">
+            <button>
+              <img
+                src="https://cdn-icons-png.flaticon.com/512/0/747.png"
+                alt="appleImage"
+              />Apple
+            </button>
+          </a>
+        </section>
+      </div>
+
+      <!-- <hr />
+      <span>or</span>
+      <hr /> -->
+
+      <br>
+      <div id="form">
+        <form action="form">
+          <label for="name">Full Name</label>
+          <br />
+          <input type="name" placeholder="Enter your full name" id="userNme" />
+          <br />
+          <br />
+          <label for="email">Email</label>
+          <br />
+          <input type="email" placeholder="name@email.com" id="email" />
+          <br />
+          <br />
+          <label for="email">Password</label>
+          <p style="font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 12px;">Between 8 and 72 characters</p>
+
+          <input
+            type="password"
+            placeholder="Enter your password"
+            id="password"
+          />
+          <br />
+          <br />
+          <div id="login-btn">
+            <button class="login-btn">Join for Free</button>
+          </div>
+        </form>
+      </div>
+      <!-- <br /> -->
+
+      <div id="sign-up">
+        <p>
+          <span>Already on Coursera? <a href="../logIn_and_signUp/logIn.html">Log in</a></span>
+        </p>
+      </div>
+      <hr style="width: 100%" />
+    </div>
+   
+    <div id="log-2">
+      <a href="">Sign up with your organization</a>
+    </div>
+  </div>
+
+
+    <!-- log in -->
+
+
+
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div id="contain">
     <div id="black-header">
         <div>
             <!-- Navigation links in the top header -->
@@ -34,35 +161,48 @@
             <div class="nav-left">
 
                 <!-- Logo for the website -->
-                <a href="#" class="logo">coursera</a>
-
+<img style="width: 150px;" src="../FrontUIDesign/Coursera Logo.png" alt="">
                 <!-- Dropdown menu for exploring courses -->
                 <div class="dropdown">
                     <button class="dropbtn">Explore</button>
 
                     <div class="dropdown-content">
-                        <a href="#">Courses</a>
-                        <a href="#">Specializations</a>
-                        <a href="#">Degrees</a>
+                        <a style="font-weight: bold;" href="#">Goals</a>
+                        <a href="#">Take a free course</a>
+                        <a href="#">Earn a Degree</a>
+                        <a href="#">Earn a Certificate</a>
+                        <a href="#">Find your new career</a>
+
+<br>
+                        <a style="font-weight: bold;" href="#">Subjects</a>
+                        <a href="#">Data Science</a>
+                        <a href="#">Business</a>
+                        <a href="#">Computer Science</a>
+                        <a href="#">Information Technology</a>
+                        <a href="#">Language Learning</a>
+                        <a href="#">Health</a>
+                        <a href="#">Personal Development</a>
+                        <a href="#">Physical Science and Engineering</a>
+                        
                     </div>
                 </div>
 
                 <!-- Serach Container Header -->
                 <div class="search-container">
-                    <input type="text" placeholder="What do you want to learn?"  class="search-bar"><span></span>
+                    <input type="text" placeholder="What do you want to learn?"   class="search-bar"><span></span>
 
                     <!-- Button for the search action -->
-                    <button class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
-                    </button>
+                    <p class="search-btn"><i class="fa-solid fa-magnifying-glass"></i>
+                    </p>
                 </div>
             </div>
             <div class="nav-right">
                 <!-- Navigation links on the right side -->
-                <a href="../onlineCourses/onlineCourses.html">Online Degrees</a>
-                <a href="#">Careers</a>
-                <a href="../logIn_and_signUp/logIn.html">Log In</a>
-                <a href="../logIn_and_signUp/signUp.html">Sign Up </a>
+                <a style="list-style: none; text-decoration: none;" href="../onlineCourses/onlineCourses.html" target="_blank">Online Degrees</a>
+                <a style="list-style: none; text-decoration: none;" href="#">Careers</a>
+                <a style="list-style: none; text-decoration: none;" href="logIn.html">Log In</a>
 
+            
                 <!-- Button for joining the platform -->
                 <button class="join-btn">Join for Free</button>
             </div>
@@ -85,7 +225,7 @@
 
             <!-- Buttons for user actions -->
             <div class="btns">
-                <button id="lf-btn">Join for Free</button>
+                <button id="lf-btn" >Join for Free</button>
             <button id="rt-btn">Try Coursera for Business</button>
             </div>
         </div>
@@ -525,7 +665,7 @@
         </section>
     </div>
 
-
+</div>
 
 </body>
 

@@ -33,7 +33,7 @@ signUpButton.addEventListener("click", function (event) {
     .catch(function (error) {
       if (error.code === "auth/email-already-in-use") {
         alert("User already exists");
-        window.location.href = "logIn.html";
+        window.location.href = "./FrontUIDesign/logIn.html";
       } else if (error.code === "auth/invalid-email") {
         alert("Invalid email address");
       } else if (error.code === "auth/weak-password") {
@@ -43,3 +43,30 @@ signUpButton.addEventListener("click", function (event) {
       }
     });
 });
+
+
+// sign up animation
+
+function showModel() {
+  document.querySelector('.overlay').classList.add('showoverlay')
+
+  document.querySelector(".loginform").classList.add('showloginform')
+
+  document.querySelector("#contain").classList.add('blur')
+console.log("click")
+
+}
+
+function closeModel(){
+  document.querySelector('.overlay').classList.remove('showoverlay')
+  document.querySelector(".loginform").classList.remove('showloginform')
+  document.querySelector("#contain").classList.remove('blur')
+}
+
+let btn2 =document.querySelector("#lf-btn")
+var btn = document.querySelector(".join-btn");
+btn.addEventListener("click",showModel)
+btn2.addEventListener("click",showModel)
+
+var c = document.querySelector("#myspan")
+c.addEventListener("click",closeModel)

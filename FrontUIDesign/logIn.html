@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Log In</title>
-    <link rel="stylesheet" href="logIn.css" />
-    <script type="module" src="login.js" defer></script>
+    <link rel="stylesheet" href="../logIn_and_signUp/logIn.css" />
+    <script type="module" src="../logIn_and_signUp/login.js" defer></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -15,9 +15,16 @@
     />
   </head>
   <body>
+    <div class="overlay"></div>
+    <!-- <button class="btn-login" >Login</button> -->
+<div class="loginform">
+  <span id="myspan"><i class="fa-solid fa-xmark"></i></span>
+
     <div class="main-login-container">
+    
       <header class="welcome-h1">
-        <h1>Welcome back</h1>
+        <!-- <span style="font-size: 30px;">Coursera</span> -->
+        <h1>Log In</h1>
       </header>
 
       <div>
@@ -53,19 +60,19 @@
       <!-- <hr />
       <span>or</span>
       <hr /> -->
-
+<!-- <a href="../FrontUIDesign/index.html"></a> -->
       <div id="form">
         <form action="form">
-          <br>
+          <br />
           <label for="email">Email</label>
           <br />
-     <br>
+          <br />
           <input type="email" placeholder="name@email.com" id="email" />
           <br />
           <br />
           <label for="email">Password</label>
           <br />
-        <br>
+          <br />
           <input
             type="password"
             placeholder="Enter your password"
@@ -97,7 +104,7 @@
     </div>
 
     <div id="login-footer">
-      <p>
+      <!-- <p>
         <span
           >Having trouble logging in?
           <a
@@ -107,7 +114,7 @@
             >Learner help center</a
           ></span
         >
-      </p>
+      </p> -->
       <p>
         <span
           >This site is protected by reCAPTCHA Enterprise and the Google
@@ -130,5 +137,7 @@
         >
       </p>
     </div>
+
+  </div>
   </body>
 </html>
