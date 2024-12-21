@@ -62,6 +62,130 @@ button {
   background: transparent;
   color: #373a3c;
 }
+
+.top-most{
+  display: flex;
+  justify-content: space-around;
+  padding: 30px;
+  position: sticky;
+  background-color: white;
+  width: 100%;
+  top: 0px;
+  z-index: 5;
+  
+}
+
+.coursera>a>img{
+  width: 250px;
+  height: fit-content;
+}
+.top-mid{
+  display: flex;
+  padding-right: 40px;
+  width: 500px;
+  justify-content: space-between;    
+
+}
+.top-mid a:hover{
+  color: #0056d2;
+  text-decoration: underline;
+}
+
+.top-mid>div>a{
+  text-decoration: none;
+  box-sizing :border-box;
+  color :rgb(91, 103, 128);
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size :14px;
+  font-size-adjust: none;
+  font-stretch :100%;
+  font-weight:400;
+  text-align :left;
+  text-decoration-color: rgb(91, 103, 128);
+  text-size-adjust :100%;
+
+
+}
+.Contact-sales{
+  padding-left: 300px;
+}
+.Contact-sales>button{
+  background-color: rgb(0, 86, 210);
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: -0.1px;
+  line-height: 24px;
+  width: 130px;
+  height: 40px;
+  margin-right: 40px;
+  border-radius: 5px;
+  border-color: rgb(0, 86, 210);
+}
+
+/* -------------dropdown hover list----------------- */
+
+
+.list-items{
+  margin: -40px 0 0 -40px;
+  background-color: rgb(255,255,255);
+  /* height: 500px; */
+  width: 400px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  
+}
+
+.list-items ul{
+  padding: 0px 30px 30px 30px;
+}
+.list-items h3{
+  color:rgb(15, 17, 20);
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+}
+.list-items h5{
+  color:rgb(91, 103, 128);
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-size: 14px;
+  font-weight:400 ;
+  line-height: 20px;
+  margin-top: -25px;
+}
+.list-items a{
+  color:rgb(91, 103, 128);
+  font-family:"Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  text-decoration: none;
+  margin-top: -50px;
+
+}
+.list-items p{
+  color:rgb(15, 17, 20);
+  font-family:"Source Sans Pro", Arial, sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  text-decoration: none;
+}
+
+
+/* .dropdown-list:hover .dropdown-contents{
+        display: block;
+      
+} */
+
+
+
+/* ----------------**------------------- */
+
+#container>a:hover{
+  color: #0056d2;
+  text-decoration: underline;
+}
 #container button {
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
