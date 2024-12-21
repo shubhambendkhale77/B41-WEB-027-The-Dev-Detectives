@@ -1,12 +1,56 @@
 
+/* First - Black Header Styling */
+#black-header {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Source Sans Pro", Arial, sans-serif;
+  font-weight: 400;
+
+}
+
+#black-header a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+}
+
+#black-header a:hover {
+  text-decoration: underline;
+  background-color: #fff;
+  color: #000;
+  padding: 10px 10px;
+  border-radius: 1px;
+  text-decoration: none;
+}
+
+/*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.back-ground{
+  width: 100%;
+  height: fit-content;
+}
+
+.inner-background{
+  
+}
+
+
 .top-most{
     display: flex;
     justify-content: space-around;
     padding: 30px;
-    position: fixed;
+    position: sticky;
     background-color: white;
     width: 100%;
-    /* top: 0px; */
+    top: 0px;
+    z-index: 5;
     
 }
 
@@ -20,6 +64,10 @@
     width: 500px;
     justify-content: space-between;    
 
+}
+.top-mid a:hover{
+    color: #0056d2;
+    text-decoration: underline;
 }
 
 .top-mid>div>a{
@@ -124,11 +172,12 @@ p{
     /* z-index: 2; */
 
 }
-.girl-image>img{
+/* .girl-image>img{
     width: 100%;
     height: fit-content; 
+    margin-top: -39px;
 
-}
+} */
 
 .black-box{
     background-color: rgb(15, 17, 20);
@@ -147,6 +196,7 @@ p{
 .black-box>div{
     display: flex;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .percent{
@@ -231,22 +281,25 @@ p{
     /* background-color: rgb(245, 245, 245);
     padding: 60px; */
 }
-.services services-child-first{
+.services-child-first{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
-    /* background-color: rgb(245, 245, 245);
-    padding: 60px; */
+    /* margin-top: 40px; */
+    flex: 3;
+    padding: 60px;
 }
-
+.services-child-second{
+  margin-top: 80px;
+}
 
 .last-line-and-social{
     display: flex;
     justify-content: space-between;
-    padding-top: 44px;
-    /* background-color: rgb(245, 245, 245);
-    padding: 60px; */
+    /* padding-top: 44px; */
+    flex: 1;
+    padding: 60px;
 }
+
 .Social-media>img{
     padding-left: 10px;
 }
@@ -388,10 +441,11 @@ li {
 .ready-to-lead-companey{
     display: flex;
     background-color:rgb(242, 245, 250);
+    padding: 100px0 0 50px;
 }
 .ready-to-lead-companey-left{
     max-width: 50%;
-    padding: 0 100px;
+    padding: 0 100px 0 -100px;
 }
 
 .ready-to-lead-companey-left h1{
@@ -552,17 +606,7 @@ form{
 }
 
 
-3 of 63
-(no subject)
-Inbox
-
-Nandan Singh Danu
-Attachments
-7:15 PM (3 hours ago)
-to me
-
- 2 Attachments
-  •  Scanned by Gmail
+/* 
 #main-container-middle {
     display: flex;
     align-items: center;
@@ -656,17 +700,17 @@ to me
   #main-h2 {
     width: 100%;
     /* border: 1px solid blue; */
-  }
+  /* } */
   
-  #middle-part {
+  /* #middle-part {
     display: flex;
     margin: 20px;
-  }
+  } */
   
-  #middle-img-2 img {
+  /* #middle-img-2 img {
     max-width: 100%;
   }
-  
+   /* 
   #team-learn h2 {
     font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 600;
@@ -690,9 +734,9 @@ to me
     width: 100px;
     height: 50px;
     /* border: 1px solid black; */
-  }
+  /* } */
   
-  #img-gov {
+  /* #img-gov {
     display: grid;
     grid-template-columns: 7rem 7rem 7rem;
   }
@@ -707,15 +751,15 @@ to me
   }
   #team-learn {
     /* border: 1px solid black; */
-    width: 50%;
-  }
+    /* width: 50%;
+  /* } */ 
   
-  #main-container-middle {
+  /* #main-container-middle {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  
+  } */
+   
   #form {
     display: grid;
     text-align: center;

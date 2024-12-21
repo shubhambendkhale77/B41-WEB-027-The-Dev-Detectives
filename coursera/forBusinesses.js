@@ -1,0 +1,1 @@
+const top_mid= document.getElementsByClassName("top-mid")
