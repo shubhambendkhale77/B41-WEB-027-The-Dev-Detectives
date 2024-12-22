@@ -47,7 +47,17 @@ body {
     border-radius: 1px;
     text-decoration: none;
 }
-
+@media(max-width:1200px){
+    .top-mid , .Contact-sales{
+      display: none;
+    }
+  }
+  
+  @media(max-width:768px){
+    #black-header{
+      display: none;
+    }
+  }
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 /* Second White Header Styling*/
