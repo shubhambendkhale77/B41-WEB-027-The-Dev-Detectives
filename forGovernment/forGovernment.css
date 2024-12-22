@@ -7,7 +7,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 20px 30px;
+  padding: 20px 20px 20px 20px;
   font-size: 16px;
   text-decoration: none;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -35,8 +35,8 @@
 }
 
 #black-header .main {
-  background-color: white;
-  color: black;
+  background-color:RGB(0, 86, 210);
+  color: white;
   padding: 10px;
   text-decoration: none;
   text-decoration: underline;
@@ -506,4 +506,18 @@ footer li {
     border-radius: 0.5rem;
     width: 100%;
   }
+  #main-innerdiv{
+    flex-wrap: wrap;
+  }
+
+  /* #main-innerdiv img{
+    width: 30px;
+    height: 20px;
+  }
+
+  *{
+    padding: 0;
+    margin: 0;
+  } */
+
 }

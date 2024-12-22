@@ -6,7 +6,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 20px 20px 30px;
+  padding: 20px 20px 20px 20px;
   font-size: 16px;
   text-decoration: none;
   font-family: "Source Sans Pro", Arial, sans-serif;
@@ -34,15 +34,22 @@
   text-decoration: none;
 }
 #black-header .main {
-  background-color: white;
-  color: black;
-  text-decoration: none;
+  background-color:RGB(0, 86, 210);
+  color: white;
   padding: 10px;
+  text-decoration: none;
   text-decoration: underline;
 }
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
+
+ i{
+color: #74c0fc;
+font-weight: 900;
+font-size: 16px;
+line-height: 16px;
+}
 .top-most{
     display: flex;
     justify-content: space-around;
@@ -916,4 +923,10 @@ form{
     padding: 10px;
     color: #1f1f1f;
     font-size: 20px;
+  }
+
+  @media(max-width:768px){
+    img{
+      width: 100px;
+    }
   }
