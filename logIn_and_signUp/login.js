@@ -19,41 +19,30 @@ const auth = getAuth(app);
 
 const email = document.getElementById("email");
 const password = document.getElementById("password");
-const signInButton = document.getElementsByClassName("login-btn")[0]; 
+const signInButton = document.getElementsByClassName("login-btn")[0];
 
 signInButton.addEventListener("click", function (event) {
-  event.preventDefault(); 
+  event.preventDefault();
   signInWithEmailAndPassword(auth, email.value, password.value)
     .then(function () {
-              window.location.href = "../logIn_and_signUp/logIn.html";
+      alert("Welcome To Coursera");
+      setTimeout(() => {
+        window.location.href = "index.html";
+      }, 1000); // Adding a slight delay to ensure the alert is shown
     })
     .catch(function (error) {
       alert("Invalid Candidates");
     });
 });
 
-
-//  login
-
-
-
-// function closeModel(){
-//   document.querySelector('.overlay').classList.remove('showoverlay')
-//   document.querySelector(".loginform").classList.remove('showloginform')
+// var btn = document.getElementById("login-btn");
+// btn.addEventListener("click", showModel);
+var c = document.getElementById("myspan");
+c.addEventListener("click", main);
+// function showModel() {
+//   window.location.href = "../FrontUIDesign/index.html";
+//   alert("Welcome To Coursera");
 // }
-
-var btn = document.getElementById("login-btn");
-btn.addEventListener("click",showModel)
-
-var c = document.getElementById("myspan")
-c.addEventListener("click",main)
-
-function showModel() {
-  window.location.href = "../FrontUIDesign/index.html";
-  alert("Welcome To Coursera")
-}
-
 function main() {
   window.location.href = "../FrontUIDesign/index.html";
-
 }
