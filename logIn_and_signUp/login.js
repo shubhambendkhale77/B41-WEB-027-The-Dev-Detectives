@@ -28,7 +28,7 @@ signInButton.addEventListener("click", function (event) {
       alert("Welcome To Coursera");
       console.log("Redirecting to index.html");
       setTimeout(() => {
-        window.location.href = "/B41-WEB-027-The-Dev-Detectives/index.html";
+        window.location.href = "../index.html";
       }, 1000); // Adding a slight delay to ensure the alert is shown
     })
     .catch(function (error) {
@@ -41,5 +41,5 @@ var c = document.getElementById("myspan");
 c.addEventListener("click", main);
 function main() {
   console.log("Redirecting to index.html");
-  window.location.href = "/B41-WEB-027-The-Dev-Detectives/index.html";
+  window.location.href = "../index.html";
 }
