@@ -32,7 +32,13 @@
   text-decoration: none;
 }
 
-
+#black-header .main {
+  background-color: white;
+  color: black;
+  text-decoration: none;
+  padding: 10px;
+  text-decoration: underline;
+}
 
 
 /*---------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
