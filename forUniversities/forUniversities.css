@@ -1,4 +1,5 @@
 /* First - Black Header Styling */
+
 #black-header {
   background-color: #000;
   color: #fff;
@@ -709,11 +710,11 @@ footer li {
   }
 
   #vid video {
-    width: 350px;
+    width: 400px;
   }
 
   #middle-img>img {
-    width: 400px;
+    width: 00px;
   }
 
   #main-innerdiv {
