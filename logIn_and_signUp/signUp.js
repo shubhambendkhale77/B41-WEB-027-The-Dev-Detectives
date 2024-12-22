@@ -28,12 +28,12 @@ signUpButton.addEventListener("click", function (event) {
     .then(function () {
       alert("Signed in successfully");
 
-      window.location.href = "logIn.html";
+      window.location.href = "/B41-WEB-027-The-Dev-Detectives/FrontUIDesign/logIn.html";
     })
     .catch(function (error) {
       if (error.code === "auth/email-already-in-use") {
         alert("User already exists");
-        window.location.href = "./FrontUIDesign/logIn.html";
+        window.location.href = "/B41-WEB-027-The-Dev-Detectives/FrontUIDesign/logIn.html";
       } else if (error.code === "auth/invalid-email") {
         alert("Invalid email address");
       } else if (error.code === "auth/weak-password") {

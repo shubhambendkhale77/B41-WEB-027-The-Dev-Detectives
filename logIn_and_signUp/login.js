@@ -26,23 +26,20 @@ signInButton.addEventListener("click", function (event) {
   signInWithEmailAndPassword(auth, email.value, password.value)
     .then(function () {
       alert("Welcome To Coursera");
+      console.log("Redirecting to index.html");
       setTimeout(() => {
-        window.location.href = "index.html";
+        window.location.href = "/B41-WEB-027-The-Dev-Detectives/index.html";
       }, 1000); // Adding a slight delay to ensure the alert is shown
     })
     .catch(function (error) {
       alert("Invalid Candidates");
+      console.error("Sign-in error: ", error);
     });
 });
 
-// var btn = document.getElementById("login-btn");
-// btn.addEventListener("click", showModel);
 var c = document.getElementById("myspan");
 c.addEventListener("click", main);
-// function showModel() {
-//   window.location.href = "../FrontUIDesign/index.html";
-//   alert("Welcome To Coursera");
-// }
 function main() {
-  window.location.href = "../FrontUIDesign/index.html";
+  console.log("Redirecting to index.html");
+  window.location.href = "/B41-WEB-027-The-Dev-Detectives/index.html";
 }
